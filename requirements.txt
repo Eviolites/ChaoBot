@@ -1,0 +1,17 @@
+# Core bot dependencies
+# Pin major versions loosely; adjust as needed.
+discord.py>=2.3.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+watchdog>=4.0.0,<5.0.0
+firebase-admin>=6.5.0,<7.0.0
+
+# firebase-admin pulls google-cloud-firestore and related google libs automatically.
+# If you want explicit pinning, you could add (optional):
+# google-cloud-firestore>=2.16.0,<3.0.0
+
+# For Windows, watchdog may require additional build tools for older Python versions.
+
+# Development / optional (uncomment if needed):
+# black==24.4.2
+# isort==5.13.2
+# mypy>=1.10.0,<2.0.0

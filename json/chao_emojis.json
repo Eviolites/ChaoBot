@@ -1,0 +1,60 @@
+{
+  "blue": {
+    "monotone": "<:bluechao:1408216941855899830>",
+    "twotone": "<:bluetwotwone:1409287506372853885>"
+  },
+  "pink": {
+    "monotone": "<:pinkchao:1408215793933488239>",
+    "twotone": "<:pinktwotonenew:1409287510345126070>"
+  },
+  "yellow": {
+    "monotone": "<:yellowchao:1408217271939109034>",
+    "twotone": "<:yellowtwotone:1409287515659309177>"
+  },
+  "white": {
+    "monotone": "<:whitechao:1408216939033006150>",
+    "twotone": "<:whitetwotone:1409287514459603005>"
+  },
+  "default": {
+    "monotone": "<:happychao:1407671215824572466>"
+  },
+  "egg": "<:chaoegg:1408215309592035329>",
+
+  "red": {
+    "monotone": "<:redchao:1408216944108241009>",
+    "twotone": "<:twotonered:1409287513142464602>"
+  },
+  "normal": {
+    "monotone": "<:whitechao:1408216939033006150>",
+    "twotone": "<:happychao:1407671142290034829>"
+  },
+  "orange": {
+    "monotone": "<:orangechao:1408222360150216805>",
+    "twotone": "<:orangetwotonenew:1409287508591771668>"
+  },
+  "green": {
+    "monotone": "<:greenchao:1408227824711766228>",
+    "twotone": "<:greenchao:1408227824711766228>"
+  },
+  "skyblue": {
+    "monotone": "<:skybluechao:1408971221768343816>",
+    "twotone": "<:skybluetwotone:1409287511762538597>"
+  },
+  "purple": {
+    "monotone": "<:purplechaonew:1409291505557831810>",
+    "twotone": "<:purpletwotone:1409298773632618577>"
+  },
+  "black": {
+    "monotone": "<:blackchao:1409295987041894491>",
+    "twotone": "<:blacktwotone:1410388832183910441>"
+  }, 
+  "grey": {
+    "monotone": "<:greychao:1409295990292353105>",
+    "twotone": "<:greytwotone:1410388833723220010>"
+  },
+  "brown": {
+    "monotone": "<:brownchao:1409295988622885005>",
+    "twotone": "<:browntwotone:1409301496864047175>"
+  }
+
+}

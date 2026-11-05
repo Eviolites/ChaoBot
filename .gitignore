@@ -1,0 +1,29 @@
+# Ignore Firebase service account key
+Firebase/chaobot-cfcc5-firebase-adminsdk-fbsvc-0588136cc7.json
+# Ignore environment variable files
+.env
+.env
+chaogardenbot/.env
+eviolites/chaogardenbot/__pycache__/
+json/
+tools/
+Firebase/
+
+
+# macOS artifacts
+.DS_Store
+._*
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+
+# VS Code
+.vscode/
