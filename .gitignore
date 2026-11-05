@@ -1,5 +1,3 @@
-# Ignore Firebase service account key
-Firebase/chaobot-cfcc5-firebase-adminsdk-fbsvc-0588136cc7.json
 # Ignore environment variable files
 .env
 .env
