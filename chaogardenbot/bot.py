@@ -2,8 +2,6 @@
 # bot.py
 import asyncio
 import os
-import getpass
-import platform
 import json
 import discord
 from discord import Embed, app_commands
@@ -572,23 +570,6 @@ async def on_ready():
     print("Chao encounter event started.")
     print("Daily Chao aging event started.")
     print("Chao emojis auto-reload task started.")
-
-    # System info
-    system_info = platform.uname()
-    print(f"Bot running on system: {system_info.system}, node name: {system_info.node}")
-    
-    username = getpass.getuser()
-    print(f"Username: {username}")
-
-    # --- Set bot status if username is not 'sbrr' ---
-    if username.lower() != 'sbrr':
-        activity = discord.Game(name="Backup system - expect slow responses.")
-        # activity = discord.Game(name=f"Running on {system_info.node}, {system_info.system}.")
-        # activity = discord.Game(name=f"Running on {system_info.node}, {system_info.system}.")
-        await bot.change_presence(status=discord.Status.online, activity=activity)
-        print("Bot status set due to backup PC.")
-    else:
-        print("Username is 'sbrr', bot status not changed.")
 
     # Start age queue flush task
     try:
